@@ -37,7 +37,7 @@ const Departments = ({ subordinates }) => {
                         <MobileMenuItem url='/about/departments' title='Отделы'/>
                         <MobileMenuItem url='/news' title='Новости'/>
                         <MobileMenuItem url='/documents' title='Документы'/>
-                        {/* <MobileMenuItem url='/about/occupationalSecurity' title='Охрана труда'/> */}
+                        <MobileMenuItem url='/about/occupationalSecurity' title='Охрана труда'/>
                         <MobileMenuItem url={'/about/anticorruption'} title={'Противодействие коррупции'}/>
                         <MobileMenuItem url={'/about/antiterror'} title={'Противодействие терроризму'}/>
                         <MobileMenuItem url={'/vacancy'} title={'Государственная служба'}/>
@@ -52,7 +52,7 @@ const Departments = ({ subordinates }) => {
                         <MenuItem url='/about/departments' title='Отделы' icon_function={MdArticle()}/>
                         <MenuItem url='/news' title='Новости' icon_function={FaRegWindowMaximize()}/>
                         <MenuItem url='/documents' title='Документы' icon_function={MdArticle()}/>
-                        {/* <MenuItem url='/about/occupationalSecurity' title='Охрана труда' icon_function={MdArticle()}/> */}
+                        <MenuItem url='/about/occupationalSecurity' title='Охрана труда' icon_function={MdArticle()}/>
                         <MenuItem url={'/about/anticorruption'} title={'Противодействие коррупции'}
                                   icon_function={VscTypeHierarchySub()}/>
                         <MenuItem url={'/about/antiterror'} title={'Противодействие терроризму'}

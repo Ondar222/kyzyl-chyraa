@@ -19,7 +19,7 @@ const Footer = (props) =>
                             <AiOutlineMail/>{props.email}
                         </div>
                         <div>
-                            <Link className="cursor-pointer" href="https://vk.com/cit_tuva">
+                            <Link className="cursor-pointer" href="https://vk.com/public199929155">
                                 <Image alt='some' src="/vk_logo.png" width={30} height={30} className="cursor-pointer dark:grayscale"/>
                             </Link>
                         </div>
